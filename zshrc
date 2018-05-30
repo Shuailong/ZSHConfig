@@ -22,15 +22,16 @@ alias ls4='ssh lsl@172.17.66.208'
 alias ls5='ssh lsl@172.17.34.26'
 alias ls6='ssh lsl@172.17.46.160'
 alias ls7='ssh lsl@172.17.38.132'
-alias ls8='ssh lsl@172.17.39.16'
+alias ls8='ssh lsl@10.19.183.89'
 alias shuailong="ssh handsome@shuailong.me"
 alias shuailongcn='ssh handsome@shuailong.info'
-alias titan='ssh yue_zhang@titan.sutd.edu.sg'
+alias ty='ssh yue_zhang@titan.sutd.edu.sg'
+alias ts='ssh shuailong@titan.sutd.edu.sg'
 alias dgx='ssh long@10.1.3.41'
 # alias vim='mvim -v'
 
 # Python
-export PATH=HOME_DIR"miniconda3/bin:$PATH"
+export PATH=$HOME_DIR"miniconda3/bin:$PATH"
 
 # Corenlp
 export CLASSPATH=$CLASSPATH:$HOME_DIR"Workspace/research/RLQA/data/corenlp/*"
@@ -47,10 +48,11 @@ export s4='172.17.66.208'
 export s5='172.17.34.26'
 export s6='172.17.46.160'
 export s7='172.17.38.132'
-export s8='172.17.39.16'
+export s8='10.19.183.89'
 export ai='192.168.2.19'
 export ml='192.168.2.20'
 export t='titan.sutd.edu.sg'
+export d='10.1.3.41'
 
 # disable autocorrection
 unsetopt correct_all
