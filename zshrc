@@ -20,7 +20,7 @@ alias ls2='ssh lsl@172.17.65.133'
 alias ls3='ssh lsl@172.18.68.61'
 alias ls4='ssh lsl@172.17.66.208'
 alias ls5='ssh lsl@172.17.34.26'
-alias ls6='ssh lsl@172.17.46.160'
+alias ls6='ssh lsl@10.13.35.148'
 alias ls7='ssh lsl@172.17.38.132'
 alias ls8='ssh lsl@10.19.183.89'
 alias ls9='ssh lsl@172.17.71.222'
@@ -36,7 +36,7 @@ alias apollo='ssh shuailong@10.1.3.42'
 export PATH=$HOME_DIR"miniconda3/bin:$PATH"
 
 # Corenlp
-export CLASSPATH=$CLASSPATH:$HOME_DIR"Workspace/research/RLQA/data/corenlp/*"
+export CLASSPATH=$CLASSPATH:$HOME_DIR"Workspace/research/RCWiki/data/corenlp/*"
 # export CLASSPATH=$CLASSPATH:$HOME_DIR"research/RLQA/data/corenlp/*"
 # Locale
 export LC_ALL='en_US.UTF-8'
